@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator | Odin Projec</title>
+	<link rel="stylesheet" type="text/css" href="style_calculator.css">
+	
+	
+</head>
+<body>
+
+<div id="calculatorBody">
+	<div id="display"></div>
+	<button data-value="8" class="delete" id ="delete">DELETE</button>
+<!--first row-->
+	<button data-value="7" class="number" id="button">7</button>
+	<button data-value="8" class="number" id="button">8</button>
+	<button data-value="9" class="number" id="button">9</button>
+	<button data-value="&#xd7;" class="operator" id="operator" style="background: #B8860B;">&#xd7;</button>
+
+	<!--second row-->
+	<button data-value="4" class="number" id="button">4</button>
+	<button data-value="5" class="number" id="button">5</button>
+	<button data-value="6" class="number" id="button">6</button>
+	<button data-value="&#xf7;" class="operator" id="operator" style="background: #B8860B;">&#xf7;</button>
+
+	<!--third row-->
+	<button data-value="1" class="number" id="button">1</button>
+	<button data-value="2" class="number" id="button">2</button>
+	<button data-value="3" class="number" id="button">3</button>
+	<button data-value="+" class="operator"  id="operator" style="background: #B8860B;">+</button>
+
+	<!--fourth row-->
+	<button data-value="0" class="number" id="button">0</button>
+	<button data-value="." class="number" id="button">.</button>
+	<button data-value="-" class="number" id="operator" style="background: #B8860B;">-</button>
+	<button data-value="=" class="total" id="total" style="background: #B8860B;">=</button>
+
+</div>
+<script src="calculator_functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body{
+	background: linear-gradient(to right, #008B8B, #00FFFF);
+	width: 100%;
+}
+
+#calculatorBody{
+	max-width: 35%;
+	max-height: 650px;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px 2px #79CDCD;
+	background: #191919;
+}
+.click{
+	transform: scale(0.95);
+	transition-duration: .08s;
+}
+#display{
+	width: 75%;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: #000;
+	border-radius: 10px;
+	font-size: 45px;
+	color: green;
+}
+.result{
+	font-size: 55px;
+	color: green;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	top: 15px;
+	margin-right: 5px;
+	display: none;
+}
+/* buttons styles */
+
+#delete{
+	width: 80%;
+	height: 60px;
+	margin-left: 45px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background: #FFB90F;
+}
+
+button{
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 50%;
+	color: #000;
+}
+.selected{
+	color: #000;
+	transform: scale(1.5);
+	transition: 0.7s;
+
+}
+
+.number{
+	width: 85px;
+	height: 85px;
+	position: relative;
+	margin: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #191919;
+	color: white;
+
+}
+.operator{
+	width: 85px;
+	height: 85px;
+	position: relative;
+	margin: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #191919;
+	color: white;
+
+}
+.total{
+	width: 85px;
+	height: 85px;
+	position: relative;
+	margin: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #191919;
+	color: white;
+
+}
+
+.delete{
+	width: 85px;
+	height: 85px;
+	position: relative;
+	margin: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #191919;
+	color: white;
+
+}
+
